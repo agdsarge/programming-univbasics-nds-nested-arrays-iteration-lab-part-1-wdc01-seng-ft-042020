@@ -7,6 +7,8 @@ def find_even_values(src)
     in_a_i = 0 
     while in_a_i < src[s_i].length do
       if src[s_i][in_a_i].even? then puts src[s_i][in_a_i] end
+      in_a_i += 1
     end
+    s_i += 1
   end
 end
