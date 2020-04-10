@@ -6,5 +6,5 @@ def find_even_values(src)
   while s_i < src do
     in_a_i = 0 
     while in_a_i < src[s_i] do
-      if src[s_i][in_a_i].even?
+      if src[s_i][in_a_i].even? then return 
 end
